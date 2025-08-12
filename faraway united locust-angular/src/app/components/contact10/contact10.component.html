@@ -1,0 +1,125 @@
+<div class="contact10-container1 thq-section-padding">
+  <div class="contact10-max-width thq-section-max-width">
+    <div class="contact10-content1 thq-flex-row">
+      <div class="contact10-content2">
+        <h2 class="thq-heading-2">
+          <ng-container>
+            <ng-template #defaultHeading1>
+              <div class="contact10-fragment3">
+                <span class="contact10-text18">Locations</span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="heading1 ? heading1 : defaultHeading1"
+            ></ng-container>
+          </ng-container>
+        </h2>
+        <p class="thq-body-large">
+          <ng-container>
+            <ng-template #defaultContent1>
+              <div class="contact10-fragment1">
+                <span class="contact10-text16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in ero.
+                </span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="content1 ? content1 : defaultContent1"
+            ></ng-container>
+          </ng-container>
+        </p>
+      </div>
+    </div>
+    <div class="contact10-content3 thq-flex-row">
+      <div class="contact10-container2">
+        <img
+          [attr.alt]="location1ImageAlt"
+          [attr.src]="location1ImageSrc"
+          class="contact10-image1 thq-img-ratio-16-9"
+        />
+        <h3 class="contact10-text12 thq-heading-3">
+          <ng-container>
+            <ng-template #defaultLocation1>
+              <div class="contact10-fragment5">
+                <span class="contact10-text20">Bucharest</span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="location1 ? location1 : defaultLocation1"
+            ></ng-container>
+          </ng-container>
+        </h3>
+        <p class="thq-body-large">
+          <ng-container>
+            <ng-template #defaultLocation1Description>
+              <div class="contact10-fragment2">
+                <span class="contact10-text17">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in ero.
+                </span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="location1Description ? location1Description : defaultLocation1Description"
+            ></ng-container>
+          </ng-container>
+        </p>
+        <div class="contact10-container3">
+          <a
+            href="https://example.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="thq-button-flat thq-body-small"
+          >
+            Get directions
+          </a>
+        </div>
+      </div>
+      <div class="contact10-container4">
+        <img
+          [attr.alt]="location2ImageAlt"
+          [attr.src]="location2ImageSrc"
+          class="contact10-image2 thq-img-ratio-16-9"
+        />
+        <h3 class="contact10-text14 thq-heading-3">
+          <ng-container>
+            <ng-template #defaultLocation2>
+              <div class="contact10-fragment6">
+                <span class="contact10-text21">Cluj - Napoca</span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="location2 ? location2 : defaultLocation2"
+            ></ng-container>
+          </ng-container>
+        </h3>
+        <p class="thq-body-large">
+          <ng-container>
+            <ng-template #defaultLocation2Description>
+              <div class="contact10-fragment4">
+                <span class="contact10-text19">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in ero.
+                </span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="location2Description ? location2Description : defaultLocation2Description"
+            ></ng-container>
+          </ng-container>
+        </p>
+        <div class="contact10-container5">
+          <a
+            href="https://example.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="thq-button-flat thq-body-small"
+          >
+            Get directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

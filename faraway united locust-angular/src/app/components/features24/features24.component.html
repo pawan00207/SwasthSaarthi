@@ -1,0 +1,125 @@
+<div class="thq-section-padding">
+  <div class="features24-container2 thq-section-max-width">
+    <div class="features24-image-container">
+      <img
+        [attr.alt]="feature1ImgAlt"
+        [attr.src]="feature1ImgSrc"
+        *ngIf="activeTab = 0"
+        class="features24-image1 thq-img-ratio-16-9"
+      />
+      <img
+        [attr.alt]="feature2ImgAlt"
+        [attr.src]="feature2ImgSrc"
+        *ngIf="activeTab = 1"
+        class="features24-image2 thq-img-ratio-16-9"
+      />
+      <img
+        [attr.alt]="feature3ImgAlt"
+        [attr.src]="feature3ImgSrc"
+        *ngIf="activeTab = 2"
+        class="features24-image3 thq-img-ratio-16-9"
+      />
+    </div>
+    <div class="features24-tabs-menu">
+      <div (click)="activeTab = 0" class="features24-tab-horizontal1">
+        <div class="features24-divider-container1">
+          <div *ngIf="activeTab = 0" class="features24-container3"></div>
+        </div>
+        <div class="features24-content1">
+          <h2 class="thq-heading-2">
+            <ng-container>
+              <ng-template #defaultFeature1Title>
+                <div class="features24-fragment4">
+                  <span class="features24-text4">AI Symptom Checker</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="feature1Title ? feature1Title : defaultFeature1Title"
+              ></ng-container>
+            </ng-container>
+          </h2>
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultFeature1Description>
+                <div class="features24-fragment5">
+                  <span class="features24-text5">
+                    AI-powered symptom checker for accurate health assessments
+                  </span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="feature1Description ? feature1Description : defaultFeature1Description"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </div>
+      </div>
+      <div (click)="activeTab = 1" class="features24-tab-horizontal2">
+        <div class="features24-divider-container2">
+          <div *ngIf="activeTab = 1" class="features24-container4"></div>
+        </div>
+        <div class="features24-content2">
+          <h2 class="thq-heading-2">
+            <ng-container>
+              <ng-template #defaultFeature2Title>
+                <div class="features24-fragment6">
+                  <span class="features24-text6">
+                    Telemedicine Consultations
+                  </span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="feature2Title ? feature2Title : defaultFeature2Title"
+              ></ng-container>
+            </ng-container>
+          </h2>
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultFeature2Description>
+                <div class="features24-fragment3">
+                  <span class="features24-text3">
+                    Telemedicine consultations
+                  </span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="feature2Description ? feature2Description : defaultFeature2Description"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </div>
+      </div>
+      <div (click)="activeTab = 2" class="features24-tab-horizontal3">
+        <div class="features24-divider-container3">
+          <div *ngIf="activeTab = 2" class="features24-container5"></div>
+        </div>
+        <div class="features24-content3">
+          <h2 class="thq-heading-2">
+            <ng-container>
+              <ng-template #defaultFeature3Title>
+                <div class="features24-fragment2">
+                  <span class="features24-text2">Medicine Delivery</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="feature3Title ? feature3Title : defaultFeature3Title"
+              ></ng-container>
+            </ng-container>
+          </h2>
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultFeature3Description>
+                <div class="features24-fragment1">
+                  <span class="features24-text1">Medicine delivery</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="feature3Description ? feature3Description : defaultFeature3Description"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

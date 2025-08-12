@@ -1,0 +1,891 @@
+<div class="pricing14-pricing23 thq-section-padding">
+  <div class="pricing14-max-width thq-section-max-width">
+    <div class="pricing14-section-title">
+      <span class="pricing14-text100 thq-body-small">
+        <ng-container>
+          <ng-template #defaultContent1>
+            <div class="pricing14-fragment33">
+              <span class="pricing14-text178">
+                Choose the perfect plan for you
+              </span>
+            </div>
+          </ng-template>
+          <ng-container
+            *ngTemplateOutlet="content1 ? content1 : defaultContent1"
+          ></ng-container>
+        </ng-container>
+      </span>
+      <div class="pricing14-content">
+        <h2 class="pricing14-text101 thq-heading-2">
+          <ng-container>
+            <ng-template #defaultHeading1>
+              <div class="pricing14-fragment35">
+                <span class="pricing14-text180">Pricing plan</span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="heading1 ? heading1 : defaultHeading1"
+            ></ng-container>
+          </ng-container>
+        </h2>
+        <p class="pricing14-text102 thq-body-large">
+          <ng-container>
+            <ng-template #defaultContent2>
+              <div class="pricing14-fragment57">
+                <span class="pricing14-text202">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <span [innerHTML]="rawv8ma"></span>
+                </span>
+              </div>
+            </ng-template>
+            <ng-container
+              *ngTemplateOutlet="content2 ? content2 : defaultContent2"
+            ></ng-container>
+          </ng-container>
+        </p>
+      </div>
+    </div>
+    <div class="pricing14-tabs">
+      <button
+        (click)="isMonthly = true"
+        *ngIf="isMonthly"
+        class="pricing14-button10 thq-button-animated thq-button-filled"
+      >
+        <span class="thq-body-small">Monthly</span>
+      </button>
+      <button
+        (click)="isMonthly = true"
+        *ngIf="!isMonthly"
+        class="pricing14-button11 thq-button-outline thq-button-animated"
+      >
+        <span class="thq-body-small">Monthly</span>
+      </button>
+      <button
+        (click)="isMonthly = false"
+        *ngIf="!isMonthly"
+        class="pricing14-button12 thq-button-animated thq-button-filled"
+      >
+        <span class="thq-body-small">Yearly</span>
+      </button>
+      <button
+        (click)="isMonthly = false"
+        *ngIf="isMonthly"
+        class="pricing14-button13 thq-button-outline thq-button-animated"
+      >
+        <span class="thq-body-small">Yearly</span>
+      </button>
+    </div>
+    <div *ngIf="isMonthly" class="pricing14-container1">
+      <div class="pricing14-column1 thq-card">
+        <div class="pricing14-price10">
+          <div class="pricing14-price11">
+            <p class="pricing14-text107 thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan1>
+                  <div class="pricing14-fragment37">
+                    <span class="pricing14-text182">Basic plan</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan1 ? plan1 : defaultPlan1"
+                ></ng-container>
+              </ng-container>
+            </p>
+            <h3 class="pricing14-text108 thq-heading-3">
+              <ng-container>
+                <ng-template #defaultPlan1Price>
+                  <div class="pricing14-fragment59">
+                    <span class="pricing14-text204">Starting at $10/month</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan1Price ? plan1Price : defaultPlan1Price"
+                ></ng-container>
+              </ng-container>
+            </h3>
+            <p class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan1Yearly>
+                  <div class="pricing14-fragment54">
+                    <span class="pricing14-text199">$100/year</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan1Yearly ? plan1Yearly : defaultPlan1Yearly"
+                ></ng-container>
+              </ng-container>
+            </p>
+          </div>
+          <div class="pricing14-list1">
+            <div class="pricing14-list-item10">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan1Feature1>
+                    <div class="pricing14-fragment55">
+                      <span class="pricing14-text200">AI symptom checker</span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan1Feature1 ? plan1Feature1 : defaultPlan1Feature1"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item11">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan1Feature2>
+                    <div class="pricing14-fragment16">
+                      <span class="pricing14-text161">
+                        Telemedicine consultations
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan1Feature2 ? plan1Feature2 : defaultPlan1Feature2"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item12">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan1Feature3>
+                    <div class="pricing14-fragment53">
+                      <span class="pricing14-text198">Medicine delivery</span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan1Feature3 ? plan1Feature3 : defaultPlan1Feature3"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="pricing14-button14 thq-button-outline thq-button-animated"
+        >
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultPlan1Action>
+                <div class="pricing14-fragment13">
+                  <span class="pricing14-text158">Sign up now</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="plan1Action ? plan1Action : defaultPlan1Action"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </button>
+      </div>
+      <div class="pricing14-column2 thq-card">
+        <div class="pricing14-price12">
+          <div class="pricing14-price13">
+            <p class="pricing14-text114 thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan2>
+                  <div class="pricing14-fragment29">
+                    <span class="pricing14-text174">Business plan</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan2 ? plan2 : defaultPlan2"
+                ></ng-container>
+              </ng-container>
+            </p>
+            <h3 class="pricing14-text115 thq-heading-3">
+              <ng-container>
+                <ng-template #defaultPlan2Price>
+                  <div class="pricing14-fragment43">
+                    <span class="pricing14-text188">Starting at $20/month</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan2Price ? plan2Price : defaultPlan2Price"
+                ></ng-container>
+              </ng-container>
+            </h3>
+            <p class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan2Yearly>
+                  <div class="pricing14-fragment23">
+                    <span class="pricing14-text168">$200/year</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan2Yearly ? plan2Yearly : defaultPlan2Yearly"
+                ></ng-container>
+              </ng-container>
+            </p>
+          </div>
+          <div class="pricing14-list2">
+            <div class="pricing14-list-item13">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature1>
+                    <div class="pricing14-fragment34">
+                      <span class="pricing14-text179">AI symptom checker</span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature1 ? plan2Feature1 : defaultPlan2Feature1"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item14">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature2>
+                    <div class="pricing14-fragment20">
+                      <span class="pricing14-text165">
+                        Telemedicine consultations
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature2 ? plan2Feature2 : defaultPlan2Feature2"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item15">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature3>
+                    <div class="pricing14-fragment27">
+                      <span class="pricing14-text172">
+                        Mood-detecting mental wellness chatbot
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature3 ? plan2Feature3 : defaultPlan2Feature3"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item16">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature4>
+                    <div class="pricing14-fragment22">
+                      <span class="pricing14-text167">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature4 ? plan2Feature4 : defaultPlan2Feature4"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="pricing14-button15 thq-button-animated thq-button-filled"
+        >
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultPlan2Action>
+                <div class="pricing14-fragment25">
+                  <span class="pricing14-text170">Sign up now</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="plan2Action ? plan2Action : defaultPlan2Action"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </button>
+      </div>
+      <div class="pricing14-column3 thq-card">
+        <div class="pricing14-price14">
+          <div class="pricing14-price15">
+            <p class="pricing14-text122 thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan3>
+                  <div class="pricing14-fragment60">
+                    <span class="pricing14-text205">Enterprise plan</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan3 ? plan3 : defaultPlan3"
+                ></ng-container>
+              </ng-container>
+            </p>
+            <h3 class="pricing14-text123 thq-heading-3">
+              <ng-container>
+                <ng-template #defaultPlan3Price>
+                  <div class="pricing14-fragment10">
+                    <span class="pricing14-text155">Starting at $30/month</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan3Price ? plan3Price : defaultPlan3Price"
+                ></ng-container>
+              </ng-container>
+            </h3>
+            <p class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan3Yearly>
+                  <div class="pricing14-fragment49">
+                    <span class="pricing14-text194">$300/year</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan3Yearly ? plan3Yearly : defaultPlan3Yearly"
+                ></ng-container>
+              </ng-container>
+            </p>
+          </div>
+          <div class="pricing14-list3">
+            <div class="pricing14-list-item17">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature1>
+                    <div class="pricing14-fragment26">
+                      <span class="pricing14-text171">AI symptom checker</span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature1 ? plan3Feature1 : defaultPlan3Feature1"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item18">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature2>
+                    <div class="pricing14-fragment32">
+                      <span class="pricing14-text177">
+                        Telemedicine consultations
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature2 ? plan3Feature2 : defaultPlan3Feature2"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item19">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature3>
+                    <div class="pricing14-fragment56">
+                      <span class="pricing14-text201">
+                        Mood-detecting mental wellness chatbot
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature3 ? plan3Feature3 : defaultPlan3Feature3"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item20">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature4>
+                    <div class="pricing14-fragment50">
+                      <span class="pricing14-text195">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature4 ? plan3Feature4 : defaultPlan3Feature4"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item21">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature5>
+                    <div class="pricing14-fragment41">
+                      <span class="pricing14-text186">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature5 ? plan3Feature5 : defaultPlan3Feature5"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="pricing14-button16 thq-button-animated thq-button-filled"
+        >
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultPlan3Action>
+                <div class="pricing14-fragment11">
+                  <span class="pricing14-text156">Sign up now</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="plan3Action ? plan3Action : defaultPlan3Action"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div *ngIf="!isMonthly" class="pricing14-container2">
+      <div class="pricing14-column4 thq-card">
+        <div class="pricing14-price16">
+          <div class="pricing14-price17">
+            <span class="pricing14-text131 thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan11>
+                  <div class="pricing14-fragment12">
+                    <span class="pricing14-text157">Basic plan</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan11 ? plan11 : defaultPlan11"
+                ></ng-container>
+              </ng-container>
+            </span>
+            <h3 class="pricing14-text132 thq-heading-3">
+              <ng-container>
+                <ng-template #defaultPlan1Price1>
+                  <div class="pricing14-fragment28">
+                    <span class="pricing14-text173">$200/yr</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan1Price1 ? plan1Price1 : defaultPlan1Price1"
+                ></ng-container>
+              </ng-container>
+            </h3>
+            <span class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan1Yearly1>
+                  <div class="pricing14-fragment47">
+                    <span class="pricing14-text192">or $20 monthly</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan1Yearly1 ? plan1Yearly1 : defaultPlan1Yearly1"
+                ></ng-container>
+              </ng-container>
+            </span>
+          </div>
+          <div class="pricing14-list4">
+            <div class="pricing14-list-item22">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan1Feature11>
+                    <div class="pricing14-fragment39">
+                      <span class="pricing14-text184">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan1Feature11 ? plan1Feature11 : defaultPlan1Feature11"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item23">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan1Feature21>
+                    <div class="pricing14-fragment40">
+                      <span class="pricing14-text185">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan1Feature21 ? plan1Feature21 : defaultPlan1Feature21"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item24">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan1Feature31>
+                    <div class="pricing14-fragment52">
+                      <span class="pricing14-text197">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan1Feature31 ? plan1Feature31 : defaultPlan1Feature31"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="pricing14-button17 thq-button-outline thq-button-animated"
+        >
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultPlan1Action1>
+                <div class="pricing14-fragment24">
+                  <span class="pricing14-text169">Get started</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="plan1Action1 ? plan1Action1 : defaultPlan1Action1"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </button>
+      </div>
+      <div class="pricing14-column5 thq-card">
+        <div class="pricing14-price18">
+          <div class="pricing14-price19">
+            <span class="pricing14-text138 thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan21>
+                  <div class="pricing14-fragment38">
+                    <span class="pricing14-text183">Business plan</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan21 ? plan21 : defaultPlan21"
+                ></ng-container>
+              </ng-container>
+            </span>
+            <h3 class="pricing14-text139 thq-heading-3">
+              <ng-container>
+                <ng-template #defaultPlan2Price1>
+                  <div class="pricing14-fragment48">
+                    <span class="pricing14-text193">$299/yr</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan2Price1 ? plan2Price1 : defaultPlan2Price1"
+                ></ng-container>
+              </ng-container>
+            </h3>
+            <span class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan2Yearly1>
+                  <div class="pricing14-fragment42">
+                    <span class="pricing14-text187">or $29 monthly</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan2Yearly1 ? plan2Yearly1 : defaultPlan2Yearly1"
+                ></ng-container>
+              </ng-container>
+            </span>
+          </div>
+          <div class="pricing14-list5">
+            <div class="pricing14-list-item25">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature11>
+                    <div class="pricing14-fragment17">
+                      <span class="pricing14-text162">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature11 ? plan2Feature11 : defaultPlan2Feature11"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item26">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature21>
+                    <div class="pricing14-fragment30">
+                      <span class="pricing14-text175">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature21 ? plan2Feature21 : defaultPlan2Feature21"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item27">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature31>
+                    <div class="pricing14-fragment45">
+                      <span class="pricing14-text190">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature31 ? plan2Feature31 : defaultPlan2Feature31"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item28">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan2Feature41>
+                    <div class="pricing14-fragment19">
+                      <span class="pricing14-text164">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan2Feature41 ? plan2Feature41 : defaultPlan2Feature41"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="pricing14-button18 thq-button-animated thq-button-filled"
+        >
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultPlan2Action1>
+                <div class="pricing14-fragment31">
+                  <span class="pricing14-text176">Get started</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="plan2Action1 ? plan2Action1 : defaultPlan2Action1"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </button>
+      </div>
+      <div class="pricing14-column6 thq-card">
+        <div class="pricing14-price20">
+          <div class="pricing14-price21">
+            <span class="pricing14-text146 thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan31>
+                  <div class="pricing14-fragment14">
+                    <span class="pricing14-text159">Enterprise plan</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan31 ? plan31 : defaultPlan31"
+                ></ng-container>
+              </ng-container>
+            </span>
+            <h3 class="pricing14-text147 thq-heading-3">
+              <ng-container>
+                <ng-template #defaultPlan3Price1>
+                  <div class="pricing14-fragment51">
+                    <span class="pricing14-text196">$499/yr</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan3Price1 ? plan3Price1 : defaultPlan3Price1"
+                ></ng-container>
+              </ng-container>
+            </h3>
+            <span class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultPlan3Yearly1>
+                  <div class="pricing14-fragment44">
+                    <span class="pricing14-text189">or $49 monthly</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="plan3Yearly1 ? plan3Yearly1 : defaultPlan3Yearly1"
+                ></ng-container>
+              </ng-container>
+            </span>
+          </div>
+          <div class="pricing14-list6">
+            <div class="pricing14-list-item29">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature11>
+                    <div class="pricing14-fragment46">
+                      <span class="pricing14-text191">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature11 ? plan3Feature11 : defaultPlan3Feature11"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item30">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature21>
+                    <div class="pricing14-fragment21">
+                      <span class="pricing14-text166">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature21 ? plan3Feature21 : defaultPlan3Feature21"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item31">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature31>
+                    <div class="pricing14-fragment36">
+                      <span class="pricing14-text181">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature31 ? plan3Feature31 : defaultPlan3Feature31"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item32">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature41>
+                    <div class="pricing14-fragment15">
+                      <span class="pricing14-text160">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature41 ? plan3Feature41 : defaultPlan3Feature41"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+            <div class="pricing14-list-item33">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+              </svg>
+              <span class="thq-body-small">
+                <ng-container>
+                  <ng-template #defaultPlan3Feature51>
+                    <div class="pricing14-fragment18">
+                      <span class="pricing14-text163">
+                        Feature text goes here
+                      </span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="plan3Feature51 ? plan3Feature51 : defaultPlan3Feature51"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="pricing14-button19 thq-button-animated thq-button-filled"
+        >
+          <span class="thq-body-small">
+            <ng-container>
+              <ng-template #defaultPlan3Action1>
+                <div class="pricing14-fragment58">
+                  <span class="pricing14-text203">Get started</span>
+                </div>
+              </ng-template>
+              <ng-container
+                *ngTemplateOutlet="plan3Action1 ? plan3Action1 : defaultPlan3Action1"
+              ></ng-container>
+            </ng-container>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

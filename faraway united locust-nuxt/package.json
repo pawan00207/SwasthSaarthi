@@ -1,0 +1,24 @@
+{
+  "name": "faraway-united-locust",
+  "version": "1.0.0",
+  "description": "A nuxt project generated based on a UIDL document",
+  "author": "teleporthq.io",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "nuxt": "^2.15.8"
+  },
+  "dependencies": {
+    "vue": "2.7.14",
+    "@lottiefiles/vue-lottie-player": "1.0.4",
+    "dangerous-html": "0.1.13",
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

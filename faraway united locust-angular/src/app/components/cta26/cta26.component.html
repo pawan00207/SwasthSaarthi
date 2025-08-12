@@ -1,0 +1,55 @@
+<div class="thq-section-padding">
+  <div class="thq-section-max-width">
+    <div class="cta26-accent2-bg">
+      <div class="cta26-accent1-bg">
+        <div class="cta26-container2">
+          <div class="cta26-content">
+            <span class="thq-heading-2">
+              <ng-container>
+                <ng-template #defaultHeading1>
+                  <div class="cta26-fragment1">
+                    <span class="cta26-text4">Join Swasth Saarthi today!</span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="heading1 ? heading1 : defaultHeading1"
+                ></ng-container>
+              </ng-container>
+            </span>
+            <p class="thq-body-large">
+              <ng-container>
+                <ng-template #defaultContent1>
+                  <div class="cta26-fragment2">
+                    <span class="cta26-text5">
+                      Experience accessible and affordable healthcare at your
+                      fingertips.
+                    </span>
+                  </div>
+                </ng-template>
+                <ng-container
+                  *ngTemplateOutlet="content1 ? content1 : defaultContent1"
+                ></ng-container>
+              </ng-container>
+            </p>
+          </div>
+          <div class="cta26-actions">
+            <button type="button" class="thq-button-filled cta26-button">
+              <span>
+                <ng-container>
+                  <ng-template #defaultAction1>
+                    <div class="cta26-fragment3">
+                      <span class="cta26-text6">Sign up now</span>
+                    </div>
+                  </ng-template>
+                  <ng-container
+                    *ngTemplateOutlet="action1 ? action1 : defaultAction1"
+                  ></ng-container>
+                </ng-container>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

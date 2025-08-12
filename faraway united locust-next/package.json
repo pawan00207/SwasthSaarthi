@@ -1,0 +1,26 @@
+{
+  "name": "faraway-united-locust",
+  "version": "1.0.0",
+  "description": "A next project generated based on a UIDL document",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "author": "TeleportHQ",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "next-intl": "2.10.0",
+    "prop-types": "15.7.2",
+    "dangerous-html": "0.1.13"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "devDependencies": {}
+}
